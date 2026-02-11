@@ -1,25 +1,29 @@
-<!DOCTYPE html>  
-<html lang="en">  
-<head>  
-  <meta charset="UTF-8">  
-  <title>Happy Promise Day</title>  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <link rel="stylesheet" href="style.css">  
-</head>  
-<body>  
-  <!-- Autoplay removed (mobile browsers block it). We'll play it on Begin click in script.js later -->  
-  <audio id="bgm" src="music.mp3" loop></audio>    
-  <div class="sky"></div>    <!-- NEW: falling hearts/sparkle background container -->    
-  <div class="hearts" id="hearts"></div>    
-  <div class="landing">  
-  <h1 id="landingText"></h1>    <!-- Romantic lines -->    
-    <p class="love-line">Every promise I make… comes from my heart ❤️</p>  
-  <p class="love-line">You are my today, my tomorrow, my forever 💫</p>  
-  <p class="love-line">This is just for you… and only you 💖</p>    
-    <p id="landingSub"></p>  <button onclick="start()">Begin 💖</button>
 
-</div>    <div class="scene hidden" id="scene"></div>    
-  <div class="final hidden" id="final">  
-    <p id="finalText"></p>  
-  </div>    <script src="script.js"></script>  </body>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Promise Day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgm" src="music.mp3" autoplay loop></audio>
+
+  <div class="sky"></div>
+
+  <div class="landing">
+    <h1 id="landingText"> For My Heart 💖</h1>
+    <p id="landingSub">These are not just promises<br>But a commitment from me to you </p>
+    <button onclick="start()">Begin 💖</button>
+  </div>
+
+  <div class="scene hidden" id="scene"></div>
+
+  <div class="final hidden" id="final">
+    <p id="finalText"></p>
+  </div>
+
+<script src="script.js"></script>
+</body>
 </html>
